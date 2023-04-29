@@ -1,7 +1,7 @@
 # Sushi Passion Smart Contracts
 This repo contains the smart contracts deployed by *sushi passion dao*
 
-Read the project .... on (https://github.com/sushi-passion-dao/white-paper)[White Paper]
+Read the project .... on [White Paper](https://github.com/sushi-passion-dao/white-paper)
 
 ## Based on Uniswap V2
 
