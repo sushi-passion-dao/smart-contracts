@@ -1,30 +1,29 @@
-# smart-contracts
-
+# Sushi Passion Smart Contracts
 This repo contains the smart contracts deployed by *sushi passion dao*
 
-## Nigiri Token White Paper
+Read the project .... on (https://github.com/sushi-passion-dao/white-paper)[White Paper]
 
-Nigiri token is the basis of the DAO sushi passion ecosystem.
+## Based on Uniswap V2
 
-The goal is to create the perfect restaurant for the community that loves sushi more than any other dish.
+[![Actions Status](https://github.com/Uniswap/uniswap-v2-core/workflows/CI/badge.svg)](https://github.com/Uniswap/uniswap-v2-core/actions)
+[![Version](https://img.shields.io/npm/v/@uniswap/v2-core)](https://www.npmjs.com/package/@uniswap/v2-core)
 
-The nigiri tokens will be used by the DAO protocol to decide every detail and dish of the future restaurant chain.
+In-depth documentation on Uniswap V2 is available at [uniswap.org](https://uniswap.org/docs).
 
-Sushi passion DAO, once the online platform has been built for the community, will issue a series of limited edition NFTs that can be used to have access to exclusive events organized by the DAO all with a sushi theme and, if staked, receive a part of the DAO's profits under sleep of nigiri tokens.
+The built contract artifacts can be browsed via [unpkg.com](https://unpkg.com/browse/@uniswap/v2-core@latest/).
 
-help create the perfect sushi restaurant!
-join the sushi passion family!
+## Local Development
 
+The following assumes the use of `node@>=10`.
 
-### Total Supply : 888_888_888_888
+### Install Dependencies
 
-- 20% teams supply team divided into 3 years on a weekly basis
-- 10% marketing
-- 10% DAO fund
-- 10% liquidity
-- 50% LP farm community
+`yarn`
 
-#### Founders
+### Compile Contracts
 
-- n0x
-- fredev
+`yarn compile`
+
+## Run Tests
+
+`yarn test`
